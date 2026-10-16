@@ -15,6 +15,6 @@ jobs:
         if: runner.os == 'Linux'
         run: sudo apt-get update && sudo apt-get install -y libx11-dev libxrandr-dev libxi-dev libxcursor-dev libxinerama-dev libwayland-dev libxkbcommon-dev pkg-config
       - name: Build
-        run: cargo build --locked
+        run: cargo build
       - name: Test
-        run: cargo test --locked
+        run: cargo test
