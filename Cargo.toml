@@ -10,3 +10,5 @@ name = "rustpaint95"
 path = "src/lib.rs"
 
 [dependencies]
+minifb = "0.28"
+font8x8 = "0.3"
