@@ -1,0 +1,12 @@
+[package]
+name = "rustpaint95"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Clean-room Windows 95 MS Paint compatibility project"
+
+[lib]
+name = "rustpaint95"
+path = "src/lib.rs"
+
+[dependencies]
